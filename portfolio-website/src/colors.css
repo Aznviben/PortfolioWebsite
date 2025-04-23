@@ -1,0 +1,7 @@
+:root {
+    --color-background: #ffffff; /* Pure white */
+    --color-border: #cccccc; /* Light gray for borders */
+    --color-shadow: rgba(0, 0, 0, 0.1); /* Subtle black shadow */
+    --color-text: #000000; /* Pure black for text */
+    --color-text-hover: #555555; /* Medium gray for hover text */
+}

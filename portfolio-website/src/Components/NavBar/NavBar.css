@@ -1,0 +1,32 @@
+@import '../../colors.css';
+
+.navbar {
+    position: flex;
+  padding: 1rem;
+  border-radius: 12px;
+  max-width: 100%;
+  margin: 1rem auto;
+  font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between; /* Space out the sections evenly */
+  margin: 1;
+  padding: 0;
+}
+
+.navbar-list li a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Patrick Hand', 'Comic Sans MS', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar-list li a:hover {
+  text-decoration: underline;
+  color: var(--color-text-hover);
+  font-style: italic;
+}
